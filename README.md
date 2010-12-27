@@ -20,3 +20,8 @@ Add *fastr-compress* to your Gemfile
 Enable the plugin in your fastr application by modifying your **app/config/settings.rb** file
 
     config.plugins << Fastr::Compress
+
+limitations
+---------------
+
+Currently asynchronous/streaming responses are not supported.
